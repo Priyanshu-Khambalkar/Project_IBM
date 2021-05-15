@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    margin: 40px;
+}
+.box{
+    background-color: black;
+    width: 20%;
+    height: 50vh;
+    color: white;
+    margin: 0 40%;
+    border-radius: 20px;
+    box-shadow: 3px 3px black,
+                 -3px -3px 10px black;
+    transition: 0.4s ease-in;             
+}
+.box:hover{
+    transform: translateY(-10px);
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 20px;
+}
+input[type = "number"]{
+    width: 70%;
+    margin: 20px 40px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+}
+button{
+    width: 69%;
+    padding: 3px;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    margin: 10px 50px;
+    outline: none;
+    border: none  ;
+    border-radius: 20px;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: rgb(8, 8,134);
+}
