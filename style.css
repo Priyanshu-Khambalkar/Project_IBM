@@ -1,0 +1,67 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    
+}   
+
+.maincontainer{
+    align-items: center;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: gray;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+h3{
+    padding-top: 20px;
+}
+
+label{  
+    font-size: 20px;
+    color: black;   
+}
+
+button{ 
+    padding: 4px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    color: black;
+}  
+
+.card{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    background-color: white;
+    width: fit-content;
+    border-radius: 20px;
+    
+}
+
+.inputTextBox{
+    padding-bottom: 20px;
+} 
+
+.slidecontainer{
+    padding-bottom: 20px;
+}
+
+.dropDown{
+    padding-bottom: 20px;
+}
